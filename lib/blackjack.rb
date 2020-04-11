@@ -42,7 +42,7 @@ def hit?(num)
   if stdi == 'h' 
     num += deal_card
     return num
-  elsif stdu == 's'
+  elsif stdi == 's'
     return num
   else
     invalid_command
