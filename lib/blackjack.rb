@@ -41,6 +41,7 @@ def hit?(num)
   stdi = get_user_input
   if stdi == 'h' 
     num += deal_card
+    return num
   elsif stdu == 's'
     return num
   else
