@@ -64,5 +64,7 @@ def runner
   # code runner here
   welcome
   hand = initial_round
+  hit?(hand)
+  
 end
     
