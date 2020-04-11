@@ -62,7 +62,8 @@ end
 
 def runner
   # code runner here
-  welcome 
+  welcome
+  hand = initial_round
 end
     
 runner
