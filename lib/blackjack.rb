@@ -20,7 +20,7 @@ end
 
 def get_user_input
   # code #get_user_input here
-  gets
+  gets.chomp
 end
 
 def end_game(num)
@@ -37,10 +37,21 @@ end
 
 def hit?
   # code hit? here
+  prompt_user
+  stdi = get_user_input
+  if stdi = 'h'
+    deal_card
+  elsif stdi = 's'
+    
+  else
+    invalid_command
+    prompt_user
+  end
 end
 
 def invalid_command
   # code invalid_command here
+  puts 'Please enter a valid comand'
 end
 
 #####################################################
