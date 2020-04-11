@@ -63,6 +63,6 @@ end
 def runner
   # code runner here
   welcome
-  initial_round
+  hand = initial_round
 end
     
