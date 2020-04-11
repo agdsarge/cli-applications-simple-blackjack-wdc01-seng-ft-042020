@@ -72,5 +72,3 @@ def runner
   end_game(hand)
   
 end
-    
-runner
